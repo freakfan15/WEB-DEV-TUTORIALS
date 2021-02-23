@@ -1,0 +1,17 @@
+.box{
+    margin: 20px;
+    padding: 10px;
+    border: solid black 3px;
+}
+
+#div1{
+    background-color: lightskyblue;
+}
+
+#div2{
+    background-color: lightpink;
+}
+
+#div3   {
+    background-color: lightsalmon;
+}

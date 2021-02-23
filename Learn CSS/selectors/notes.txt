@@ -1,0 +1,6 @@
+Selectors:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+
+Pseudo Selectors:
+https://www.w3schools.com/cssref/sel_hover.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements#:~:text=A%20CSS%20pseudo%2Delement%20is,first%20line%20of%20a%20paragraph.&text=Note%3A%20In%20contrast%20to%20pseudo,element%20based%20on%20its%20state.

@@ -1,0 +1,25 @@
+*{
+    background-color: lightcyan;
+}
+div{
+    background-color: lightsteelblue;
+}
+.class1{
+    background-color: lightcoral;
+}
+#id1{
+    background-color: lightgreen;
+}
+/* So, order of precdence is as follows
+    id>class> element(<div> or <p>)> *
+    which means if different colors are selected for 
+    same div or a tag in html the color of id will be
+    preferred over class
+    similarly class over div and so on
+    
+    .abc for class
+    #abc for id*/
+
+#id1{
+    background-color: lime; /* in css if a diffrent prop is applied to an element then the later overrides the former one*/
+}

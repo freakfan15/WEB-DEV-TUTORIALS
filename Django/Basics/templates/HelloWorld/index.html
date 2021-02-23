@@ -1,0 +1,32 @@
+{% extends 'HelloWorld/base.html' %}
+
+{% block head %}
+   <style>
+       .bold {
+           font-weight: 900;
+       }
+   </style> 
+
+    
+{% endblock %}
+
+{% block body %} 
+    {% include 'HelloWorld/navbar.html' %} <!--yet another django tag used to include a diff html/css/js file-->
+     
+<!--putiing everything in a div class to add padding to all the content-->
+    <div class="container"> 
+        <h1>hey there! What's Up</h1>
+        <ul class="collection">
+            {% for collab in collaborators %}
+            <!--using cycle block to rotate b/w bold and non-bold type-->
+                <li class="{% cycle 'bold' '' %} collection-item"> {{ collab }} </li>
+            {% endfor %}
+        </ul>
+        {% if show_dev %}
+            <span>Developed by: {{ developer }} </span>
+        {% endif %}
+
+    </div>
+
+    
+{% endblock %}
